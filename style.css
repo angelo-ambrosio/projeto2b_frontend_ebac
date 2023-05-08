@@ -102,3 +102,18 @@ table tfoot{
     background-color: #222830;
 }
 
+@media (min-width: 1024px){
+    form input,
+    table{
+        width: 60%;
+    }
+}
+
+@media (min-width: 2000px){
+    form input,
+    table,
+    .divider{
+        width: 40%;
+        font-size: 22px;
+    }
+}
