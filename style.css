@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #284161;
+    height: 100vh;
+}
+
+.container{
+    margin: 0 auto;
+    height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 46px;
+    color: #A3C1E6;
+    margin-bottom: 30px;
+}
+
+.divider{
+    width: 60%;
+    border: 2px solid #4775AD;
+    margin: 0 auto 30px;
+    opacity: .3;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+form input{
+    width: 80%;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 7px;
+    background-color: #A3C1E6;
+    color: #284161;
+    font-weight: bold;
+    font-size: 18px;
+    transition: .3s;
+}
+
+form input:focus{
+    outline: none;
+    border: 1px solid white;
+    background-color: #7996b9;
+}
+
+form button{
+    padding: 15px 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: #455161;
+    color: #A3C1E6;
+    margin-bottom: 40px;
+    transition: .3s;
+}
+
+form button:hover{
+    scale: 1.1;
+    background-color: #222830;
+}
+
+table{
+    margin: 0 auto;
+    text-align: left;
+    color: #A3C1E6;
+    width: 80%;
+}
+
+table thead th{
+    padding: 15px 0;
+    font-size: 22px;
+}
+
+table tbody tr:nth-of-type(2n + 1){
+    background-color: #4775AD;
+}
+
+table tbody tr:nth-of-type(2n){
+    background-color: #3c587e;
+}
+
+table tbody td,
+table tfoot td{
+    padding: 15px;
+}
+
+table tfoot{
+    background-color: #222830;
+}
+
